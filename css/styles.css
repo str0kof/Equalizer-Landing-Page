@@ -1,0 +1,100 @@
+/*MObile styles*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+:root {
+    --soft-cyan: #66e2dc;
+    --soft-red: #fa7453;
+    --light-orange: #ffb964;
+    --light-grayish-orange: #fcfaf9;
+    --very-dark-black: #191826;
+}
+
+body {
+    background-image: url("/assets/bg-main-mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 3fr;
+}
+
+.logo {
+    width: 146px;
+    height: 32px;
+    margin: 40px 0 65px 24px;
+}
+
+h1 {
+
+    font-weight: 88px;
+    line-height: 40px;
+    padding-bottom: 18px;
+    width: 250px;
+}
+
+.header {
+    
+    margin: auto 24px;
+    width: 327px;
+    height: 318px;
+
+}
+
+.header p {
+    line-height: 30px;
+}
+
+.blackContainer {
+    margin-top: 168px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 375px;
+    background-color: var(--very-dark-black);
+    border-radius: 12px;
+    background-image: url("/assets/bg-pattern-2.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.mobileimage {
+    margin: -330px 80px;
+    width: 209px;
+    height: 436px;
+
+}
+
+.orangeContainer {
+    margin-top:-180px;
+    border-radius:12px;
+    background-color: var(--soft-red);
+    width: 375px;
+    height: 546px;
+    color: var(--light-grayish-orange);
+}
+
+.orangeprice{
+margin:0 37px 0 38px;
+    
+}
+.orangeContainer h2{
+    font-size:32px;
+    padding-top:47px;
+    padding-bottom: 12px;
+}
+.orangeContainer p{
+    line-height: 28px;
+    font-weight: 400px;
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) {}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {}
