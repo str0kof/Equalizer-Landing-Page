@@ -23,6 +23,7 @@ body {
     padding-top: -200px;
 }
 
+
 .logo {
     width: 146px;
     height: 32px;
@@ -30,11 +31,11 @@ body {
 }
 
 h1 {
-
-    font-weight: 88px;
-    line-height: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
     padding-bottom: 18px;
-    width: 250px;
+    width: 327px;
 }
 
 .header {
@@ -44,6 +45,7 @@ h1 {
     height: 318px;
 
 }
+
 
 .header p {
     line-height: 30px;
@@ -95,13 +97,19 @@ h1 {
     font-weight: 400px;
 }
 
-span {
-    font-size: 65px;
-    font-weight: 700;
+.pricing {
+    display: inline-block;
 }
 
-.pricing p {}
+.pricing .font {
+    font-size: 65px;
+    font-weight: 600;
+}
 
+.font1 {
+    font-size: 18px;
+    font-weight: 100;
+}
 
 .apple {
     background-color: var(--very-dark-black);
@@ -110,14 +118,18 @@ span {
     border-radius: 12px;
     margin-bottom: 30px;
     padding: 15px 77px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: None;
 }
 
 .apple:hover {
     background-color: var(--soft-cyan);
 }
 
-.apple a {
+.apple p {
     font-size: 18px;
+    font-weight: 700;
     color: var(--light-grayish-orange);
 }
 
@@ -126,49 +138,406 @@ span {
     width: 296px;
     height: 61px;
     border-radius: 12px;
-    padding: 15px 60px;
+    padding: 15px 50px;
+    border: None;
+
 }
 
 .android:hover {
     background-color: var(--light-orange);
 }
 
-.android a {
+.android p {
     font-size: 18px;
+    font-weight: bold;
     color: var(--very-dark-black);
 }
 
 footer {
-    margin-left: 24px;
+    margin: auto 24px;
+    width: 327px;
+    height: 169px;
 }
 
 footer span {
     font-size: 16px;
     line-height: 26px;
+    font-weight: 700;
 }
 
 footer p {
-    margin-top: 37px;
+    margin-top: 32px;
+    margin-bottom: 70px;
     width: 300px;
     height: 105px;
 }
 
-footer .icons {
-
-    background: transparent;
-    margin-top: 40px;
-    margin-right: 15px;
-    margin-bottom: 50px;
+svg {
+    margin-left: 0;
+    margin-right: 20px;
 }
 
-.icons:hover {
-    background-color: var(--soft-red);
-    color: var(--light-grayish-orange)
+.svgee {
+    padding-bottom: 80px;
 }
 
+svg:hover {
+    fill: var(--soft-red);
+}
 
 /* Tablet Styles */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .logo {
+        width: 146px;
+        height: 32px;
+        margin: 40px 0 65px 32px;
+    }
+
+    body {
+        background-image: url('/assets/bg-pattern-1.svg');
+        background-repeat: no-repeat;
+        background-position: top -45px right -30px;
+        background-size: 266px;
+    }
+
+    .header {
+        margin: auto 32px;
+        width: 520px;
+        height: 332px;
+    }
+
+    h1 {
+        font-size: 64px;
+        font-weight: 700px;
+        line-height: 64px;
+        padding-bottom: 18px;
+        width: 500px;
+    }
+
+    .header p {
+        width: 514px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .blackContainer {
+        margin-top: 249px;
+        margin-left: 33px;
+        margin-right: 39px;
+        height: 600px;
+        width: 696px;
+        background-color: var(--very-dark-black);
+        border-radius: 12px;
+        background-image: url("/assets/bg-pattern-2.svg");
+        background-repeat: no-repeat;
+        background-position: top -60px left 220px;
+    }
+
+    .mobileimage {
+        position: relative;
+        margin: -130px 80px;
+        width: 270px;
+        height: 556px;
+
+    }
+
+    .orangeContainer {
+        position: absolute;
+        margin: -430px 58px 63px 285px;
+        border-radius: 12px;
+        background-color: var(--soft-red);
+        width: 399px;
+        height: 546px;
+        color: var(--light-grayish-orange);
+    }
+
+    .orangeprice {
+        margin: 0 37px 0 48px;
+        width: 302px;
+        height: 140px;
+
+    }
+
+    .orangeprice h2 {
+        font-size: 32px;
+        padding-top: 47px;
+        padding-bottom: 12px;
+    }
+
+    .orangeprice p {
+        line-height: 28px;
+        font-weight: 400px;
+    }
+
+    .pricing {
+        display: inline-block;
+    }
+
+    .pricing .font {
+        font-size: 65px;
+        font-weight: 600;
+    }
+
+    .font1 {
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+
+    .apple {
+        background-color: var(--very-dark-black);
+        width: 296px;
+        height: 61px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        padding: 15px 77px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border: None;
+    }
+
+    .apple:hover {
+        background-color: var(--soft-cyan);
+    }
+
+    .apple p {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--light-grayish-orange);
+    }
+
+    .android {
+        background-color: var(--light-grayish-orange);
+        width: 296px;
+        height: 61px;
+        border-radius: 12px;
+        padding: 15px 50px;
+        border: None;
+
+    }
+
+    .android:hover {
+        background-color: var(--light-orange);
+    }
+
+    .android p {
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--very-dark-black);
+    }
+
+
+    footer {
+        padding-top: 200px;
+        width: 696px;
+        height: 143px;
+    }
+
+    footer span {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+
+    footer p {
+        margin-top: 37px;
+        width: 366px;
+        height: 79px;
+    }
+
+    .svgee {
+        margin-top: -130px;
+        margin-left: 550px;
+    }
+
+    svg:hover {
+        fill: var(--soft-red);
+    }
+
+
+}
+
 
 /* Desktop Styles */
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+    .logo {
+        width: 146px;
+        height: 32px;
+        margin: 61px 0 65px 165px;
+    }
+
+    body {
+        background-image: url('/assets/bg-pattern-1.svg');
+        background-repeat: no-repeat;
+        background-position: top -45px right;
+        background-size: 312px;
+    }
+
+    .header {
+        margin: auto 165px;
+        width: 1015px;
+
+    }
+
+    h1 {
+        font-size: 88px;
+        font-weight: 700px;
+        line-height: 88px;
+        padding-top: 66px;
+        padding-bottom: 40px;
+        width: 1015px;
+
+    }
+
+    .header p {
+        width: 825px;
+        height: 102px;
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .blackContainer {
+        margin-top: 400px;
+        margin-left: 165px;
+        margin-right: 165px;
+        height: 600px;
+        width: 1110px;
+        background-color: var(--very-dark-black);
+        border-radius: 12px;
+        background-image: url("/assets/bg-pattern-2.svg");
+        background-repeat: no-repeat;
+        background-position: top -60px left 308px;
+        background-size: 30%;
+    }
+
+    .mobileimage {
+        position: relative;
+        margin: -200px 80px;
+        width: 312px;
+        height: 632px;
+
+    }
+
+    .orangeContainer {
+        position: absolute;
+        margin: -500px 58px 63px 720px;
+        border-radius: 12px;
+        background-color: var(--soft-red);
+        width: 446px;
+        height: 625px;
+        color: var(--light-grayish-orange);
+    }
+
+    .orangeprice {
+        margin: 0 58px 48px 59px;
+        width: 302px;
+
+    }
+
+    .orangeprice h2 {
+        font-size: 40px;
+    }
+
+    .orangeprice p {
+        font-size: 20px;
+        line-height: 34px;
+
+        width: 333px;
+
+    }
+
+    .pricing {
+        display: inline-block;
+    }
+
+    .pricing .font {
+        font-size: 65px;
+        font-weight: 600;
+    }
+
+    .font1 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .apple {
+        background-color: var(--very-dark-black);
+        width: 333px;
+        height: 61px;
+        border-radius: 12px;
+        margin-bottom: 16px;
+        padding: 15px 10px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border: None;
+    }
+
+    .apple:hover {
+        background-color: var(--soft-cyan);
+    }
+
+    .apple p {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--light-grayish-orange);
+    }
+
+    .android {
+        background-color: var(--light-grayish-orange);
+        width: 333px;
+        height: 61px;
+        border-radius: 12px;
+        padding: 15px 10px;
+        border: None;
+        margin-bottom: 48px;
+
+    }
+
+    .android:hover {
+        background-color: var(--light-orange);
+    }
+
+    .android p {
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--very-dark-black);
+    }
+
+    footer {
+        margin-left: 165px;
+        width: 1110px;
+        height: 79px;
+
+    }
+
+    footer span {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+
+    footer p {
+        margin-top: 37px;
+        width: 336px;
+        height: 79px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 350px;
+        text-align: justify;
+
+    }
+
+    .footer-paragraph {
+        margin-top: -70px;
+    }
+
+    .svgee {
+        margin-top: -120px;
+        margin-left: 980px;
+    }
+
+    svg:hover {
+        fill: var(--soft-red);
+    }
+
+}
