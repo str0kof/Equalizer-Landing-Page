@@ -194,10 +194,10 @@ svg:hover {
     }
 
     body {
-        background-image: url('/assets/bg-pattern-1.svg'),url("/assets/bg-main-tablet.png");
+        background-image: url('/assets/bg-pattern-1.svg'), url("/assets/bg-main-tablet.png");
         background-repeat: no-repeat, no-repeat;
-        background-position: top -45px right -30px,top -120px left -160px ;
-        background-size: 266px,120%;
+        background-position: top -45px right -30px, top -120px left -160px;
+        background-size: 266px, 120%;
     }
 
     .header {
@@ -367,10 +367,10 @@ svg:hover {
     }
 
     body {
-        background-image: url('/assets/bg-pattern-1.svg'),url("/assets/bg-main-tablet.png");
+        background-image: url('/assets/bg-pattern-1.svg'), url("/assets/bg-main-tablet.png");
         background-repeat: no-repeat;
-        background-position: top -45px right,top -450px left -10px ;
-        background-size: 312px,100%;
+        background-position: top -45px right, top -450px left -10px;
+        background-size: 312px, 100%;
     }
 
     .header {
