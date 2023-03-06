@@ -97,18 +97,18 @@ h1 {
     font-weight: 400px;
 }
 
-.pricing {
-    display: inline-block;
+.pricing p {
+    display: inline;
+    vertical-align: middle;
 }
 
-.pricing .font {
+.big {
     font-size: 65px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
-.font1 {
-    font-size: 18px;
-    font-weight: 100;
+.small {
+    font-size: 20px;
 }
 
 .apple {
@@ -116,6 +116,7 @@ h1 {
     width: 296px;
     height: 61px;
     border-radius: 12px;
+    margin-top: 47px;
     margin-bottom: 30px;
     padding-top: 15px;
     align-items: center;
@@ -269,18 +270,18 @@ svg:hover {
         font-weight: 400px;
     }
 
-    .pricing {
-        display: inline-block;
+    .pricing p {
+        display: inline;
+        vertical-align: middle;
     }
 
-    .pricing .font {
+    .big {
         font-size: 65px;
-        font-weight: 600;
+        font-weight: 700;
     }
 
-    .font1 {
-        font-size: 18px;
-        font-weight: 100;
+    .small {
+        font-size: 20px;
     }
 
 
@@ -441,23 +442,21 @@ svg:hover {
     .orangeprice p {
         font-size: 20px;
         line-height: 34px;
-
         width: 333px;
-
     }
 
-    .pricing {
-        display: inline-block;
+    .pricing p {
+        display: inline;
+        vertical-align: middle;
     }
 
-    .pricing .font {
+    .big {
         font-size: 65px;
-        font-weight: 600;
+        font-weight: 700;
     }
 
-    .font1 {
+    .small {
         font-size: 20px;
-        font-weight: 100;
     }
 
     .apple {
@@ -506,7 +505,6 @@ svg:hover {
         margin-left: 165px;
         width: 1110px;
         height: 79px;
-
     }
 
     footer span {
@@ -523,7 +521,6 @@ svg:hover {
         line-height: 26px;
         margin-left: 350px;
         text-align: justify;
-
     }
 
     .footer-paragraph {
