@@ -18,7 +18,7 @@
 
 body {
     background-image: url("/assets/bg-main-mobile.png");
-    background-position: left top;
+    background-position: left top -200px;
     background-repeat: no-repeat;
     padding-top: -200px;
 }
@@ -194,10 +194,10 @@ svg:hover {
     }
 
     body {
-        background-image: url('/assets/bg-pattern-1.svg');
-        background-repeat: no-repeat;
-        background-position: top -45px right -30px;
-        background-size: 266px;
+        background-image: url('/assets/bg-pattern-1.svg'),url("/assets/bg-main-tablet.png");
+        background-repeat: no-repeat, no-repeat;
+        background-position: top -45px right -30px,top -120px left -160px ;
+        background-size: 266px,120%;
     }
 
     .header {
@@ -367,10 +367,10 @@ svg:hover {
     }
 
     body {
-        background-image: url('/assets/bg-pattern-1.svg');
+        background-image: url('/assets/bg-pattern-1.svg'),url("/assets/bg-main-tablet.png");
         background-repeat: no-repeat;
-        background-position: top -45px right;
-        background-size: 312px;
+        background-position: top -45px right,top -450px left -10px ;
+        background-size: 312px,100%;
     }
 
     .header {
