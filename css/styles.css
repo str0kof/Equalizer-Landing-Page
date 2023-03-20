@@ -363,7 +363,7 @@ svg:hover {
     .logo {
         width: 146px;
         height: 32px;
-        margin: 61px 0 65px 165px;
+        margin: 61px 0 65px 300px;
     }
 
     body {
@@ -374,7 +374,7 @@ svg:hover {
     }
 
     .header {
-        margin: auto 165px;
+        margin: auto 300px;
         width: 1015px;
 
     }
@@ -384,7 +384,7 @@ svg:hover {
         font-weight: 700px;
         line-height: 88px;
         padding-top: 66px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
         width: 1015px;
     }
 
@@ -397,32 +397,32 @@ svg:hover {
 
     .blackContainer {
         margin-top: 400px;
-        margin-left: 165px;
-        margin-right: 165px;
-        height: 700px;
-        width: 1550px;
+        margin-left: 300px;
+        margin-right: 320px;
+        height: 600px;
+        width: 1400px;
         background-color: var(--very-dark-black);
         border-radius: 12px;
         background-image: url("/assets/bg-pattern-2.svg");
         background-repeat: no-repeat;
-        background-position: top -60px left 600px;
+        background-position: top -50px left 550px;
         background-size: 25%;
     }
 
     .mobileimage {
         position: relative;
-        margin: -160px 400px;
+        margin: -160px 350px;
         width: 312px;
         height: 632px;
     }
 
     .orangeContainer {
         position: absolute;
-        margin: -500px 58px 80px 1050px;
+        margin: -450px 58px 80px 1130px;
         border-radius: 12px;
         background-color: var(--soft-red);
         width: 446px;
-        height: 625px;
+        height: 610px;
         color: var(--light-grayish-orange);
     }
 
@@ -446,8 +446,8 @@ svg:hover {
     }
 
     .pricing {
-        padding-top: 20px;
-        padding-bottom: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .big {
@@ -501,8 +501,9 @@ svg:hover {
     }
 
     footer {
-        margin-left: 165px;
-        width: 1550px;
+        margin-top: 87px;
+        margin-left: 300px;
+        width: 1400px;
         height: 79px;
     }
 
@@ -528,7 +529,8 @@ svg:hover {
 
     .svgee {
         margin-top: -120px;
-        margin-left: 1420px;
+        margin-left: 1270px;
+
     }
 
     svg:hover {
